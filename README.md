@@ -14,8 +14,8 @@ variables containing file path should be changed as needed. It's a path from the
 
 Extraction and Loading :
 For HAM10000 dataset [1,2], there are 2 folders containing the training set and 1 folders containing the validation set<br />
+For other dataset taken from Kaggle (dermapp or skin-disease-dataset or skin-disease-image-dataset), it's already ordered properly.<br />
 
-For other datasets, it is already splitted from the source.<br />
 
 The data was then loaded into a ImageDataGenerator with nessecary augment and splitting.
 
